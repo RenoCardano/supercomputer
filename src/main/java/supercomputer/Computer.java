@@ -6,5 +6,7 @@ public class Computer {
 
 	private int memory;
 	
+	private String brand;
+	
 
 }
