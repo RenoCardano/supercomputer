@@ -50,6 +50,22 @@ public class Computer {
 		this.hddspace = hddspace;
 	}
 
+	
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Computer [processor=");
+		builder.append(processor);
+		builder.append(", memory=");
+		builder.append(memory);
+		builder.append(", brand=");
+		builder.append(brand);
+		builder.append(", hddspace=");
+		builder.append(hddspace);
+		builder.append("]");
+		return builder.toString();
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
